@@ -1,0 +1,38 @@
+[
+  {
+    "directory": "/home/federico/Escritorio/cp/tiny_md/compile",
+    "command": "cc -Itiny_md@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -g -MD -MQ 'tiny_md@exe/tiny_md.c.o' -MF 'tiny_md@exe/tiny_md.c.o.d' -o 'tiny_md@exe/tiny_md.c.o' -c ../tiny_md.c",
+    "file": "../tiny_md.c",
+    "output": "tiny_md@exe/tiny_md.c.o"
+  },
+  {
+    "directory": "/home/federico/Escritorio/cp/tiny_md/compile",
+    "command": "cc -Itiny_md@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -g -MD -MQ 'tiny_md@exe/core.c.o' -MF 'tiny_md@exe/core.c.o.d' -o 'tiny_md@exe/core.c.o' -c ../core.c",
+    "file": "../core.c",
+    "output": "tiny_md@exe/core.c.o"
+  },
+  {
+    "directory": "/home/federico/Escritorio/cp/tiny_md/compile",
+    "command": "cc -Itiny_md@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -g -MD -MQ 'tiny_md@exe/wtime.c.o' -MF 'tiny_md@exe/wtime.c.o.d' -o 'tiny_md@exe/wtime.c.o' -c ../wtime.c",
+    "file": "../wtime.c",
+    "output": "tiny_md@exe/wtime.c.o"
+  },
+  {
+    "directory": "/home/federico/Escritorio/cp/tiny_md/compile",
+    "command": "cc -Iviz@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -g -MD -MQ 'viz@exe/viz.c.o' -MF 'viz@exe/viz.c.o.d' -o 'viz@exe/viz.c.o' -c ../viz.c",
+    "file": "../viz.c",
+    "output": "viz@exe/viz.c.o"
+  },
+  {
+    "directory": "/home/federico/Escritorio/cp/tiny_md/compile",
+    "command": "cc -Iviz@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -g -MD -MQ 'viz@exe/core.c.o' -MF 'viz@exe/core.c.o.d' -o 'viz@exe/core.c.o' -c ../core.c",
+    "file": "../core.c",
+    "output": "viz@exe/core.c.o"
+  },
+  {
+    "directory": "/home/federico/Escritorio/cp/tiny_md/compile",
+    "command": "cc -Iviz@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -g -MD -MQ 'viz@exe/wtime.c.o' -MF 'viz@exe/wtime.c.o.d' -o 'viz@exe/wtime.c.o' -c ../wtime.c",
+    "file": "../wtime.c",
+    "output": "viz@exe/wtime.c.o"
+  }
+]
